@@ -82,6 +82,6 @@ Map was produced by [Tastyfreeze](https://github.com/tastyfreeze) for the Univer
 
 Elevation data was acquired from the Kentucky's Elevation Data & Aerial Photography Program ([KyFromAbove.ky.gov](http://kyfromabove.ky.gov)). Color aerial imagery was acquired from the National Agriculture Imagery Program (NAIP) stored on public FTP server maintained by Kentucky Division of Geographic Information ([DGI](https://technology.ky.gov/gis/Pages/default.aspx))
 
-Various [ArcGIS Pro](https://www.esri.com/en-us/arcgis/products/arcgis-pro/resources) lidar and digital surface model tools were used to process and analyze these data. A Python script was developed to automate this process and is found in this [Jupyter Notebook]()
+Various [ArcGIS Pro](https://www.esri.com/en-us/arcgis/products/arcgis-pro/resources) lidar and digital surface model tools were used to process and analyze these data. A Python script was developed to automate this process and is found in this [Jupyter Notebook](build-lidar-analysis.ipynb).
 
 
