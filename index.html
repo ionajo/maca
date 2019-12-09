@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <title>Mammoth Cave Historic Entrance</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,900i" rel="stylesheet">
+
+    <style>
+        /* UK Colors: 
+            #c7c9c8 light gray 
+            #63666a dark gray
+            #15397f dark blue
+            #009bda light blue
+            #0033a0 official blue
+        */
+        body {
+            margin: 0;
+            padding: 0;
+            background: #c7c9c8;
+            font-family: 'Lato', sans-serif;
+            font-weight: 300;
+            color: #3d3d3d;
+            font-size: 1.1em;
+
+        }
+
+        section {
+            width: 80%;
+            margin: 10px auto;
+        }
+
+        h1 {
+            font-family: 'Lato', sans-serif;
+            font-weight: 900i;
+            font-size: 2.8em;
+            font-style: italic;
+            /* The em unit. 3x the current size */
+            letter-spacing: .01em;
+            margin: 0 0 15px 0;
+            /* text-transform: uppercase; */
+        }
+
+        h2 {
+            font-family: 'Lato', sans-serif;
+            font-weight: 300;
+            color: #63666a;
+            font-size: 1.5em;
+            letter-spacing: .06em;
+            font-style: italic;
+            margin: 0 0 25px 0;
+        }
+
+        p {
+            font-size: 1.15em;
+            line-height: 1.8em;
+            margin: 0 0 25px 0;
+        }
+
+        a {
+            color: #15397f;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            padding: 0px 50px 4px 20px;
+            /* font-size: 0.96em; */
+            line-height: 1.6em;
+            color: #63666a;
+        }
+
+        li {
+            margin: 10px 0
+        }
+
+        #map {
+            width: 100%;
+            /* height: 33vh; */
+            margin: 0px auto;
+
+        }
+
+        .max-image-width {
+            width: 100%;
+        }
+
+        /* add custom style class here */
+
+        .linkbox {
+            margin: 3px 0 20px 0;
+            display: block;
+            font-weight: 300;
+        }
+
+        hr {
+            border: 0px;
+            border-bottom: 1px solid #3d3d3d;
+            padding-top: 20px;
+        }
+
+        /* Use float property to make two-column layout */
+
+        .first-column {
+            float: left;
+            width: 48%;
+            padding-right: 20px;
+        }
+
+        .column {
+            float: left;
+            width: 48%;
+        }
+
+        /* Clear floats after the columns */
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .svg-title {
+            float: left;
+            display: inline-block;
+            width: 75px;
+            margin: -8px 10px -8px 0;
+        }
+
+        .svg-legend {
+            display: inline-block;
+            width: 50px;
+            margin: 0px 10px -20px 0;
+        }
+
+        .legend {
+            margin: 0px 10px 20px 0;
+        }
+
+        .legend h3 {
+            border-bottom: 1px #131313 solid;
+            padding: 0 0 10px 0;
+            width: 300px;
+        }
+
+        iframe {
+            height: 33vh;
+        }
+
+        /* When browser is 800px wide or less */
+
+        @media screen and (max-width: 800px) {
+
+            .first-column,
+            .column {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <iframe src="map/map.html" width="100%"></iframe>
+    <section>
+        <a href='map/map.html' class="linkbox">Full-screen version</a>
+
+
+
+        <h1>Mammoth Cave Historic Entrance</h1>
+        <h2>University of Kentucky Geography</h2>
+        <div class="row">
+            <div class="first-column">
+                <p>
+                    This map is centered on Mammoth Cave's historic entrance, which leads adventurers into the world's
+                    longest known cave system, with over 400 miles of explored passages (<a
+                        href="https://www.nps.gov/maca">nps.gov</a>). Also shown are trails and points of interest in
+                    the park to help adventurers discover unique locations in the park. Contour interval is 10 vertical
+                    feet with labels every 100 ft.
+
+                    <h3>Introduction</h3>
+                    <p>
+                        This modest cave opening leads visitor into a vast underworld with a unique ecosystem and
+                        history. The park was established in 1941, became a World Heritage Site in 1981, and is visited
+                        by over 500,000 adventurers each year (<a
+                            href="https://en.wikipedia.org/wiki/Mammoth_Cave_National_Park">wikipedia.org</a>). </p>
+
+                    <h3>Goals of this project</h3>
+                    <ul>
+                        <li>Map the entrance and surrounding area with high-resolution aerial lidar data</li>
+                        <li>Measure karst features</li>
+                        <li>Visualize the above-ground features around the entrance</li>
+                    </ul>
+
+
+
+                    <h3>Sources and tools</h3>
+                    <p>Map was produced by Boyd Shearer for the University of Kentucky Department of Geography, December
+                        2019. This map is part of a final project in GEO 409.</p>
+                    <p>Elevation data was acquired from the Kentucky's Elevation Data & Aerial Photography Program (<a
+                            href="http://kyfromabove.ky.gov">KyFromAbove.ky.gov</a>). Color aerial imagery was acquired
+                        from the National Agriculture Imagery Program (NAIP) stored on public FTP server maintained by
+                        Kentucky Division of Geographic Information (<a
+                            href="https://technology.ky.gov/gis/Pages/default.aspx">DGI</a>). </p>
+                    <ul>
+                        <li><a href="https://www.esri.com/en-us/arcgis/products/arcgis-pro/resources">ArcGIS Pro </a>was
+                            used to process lidar data and produce elevation derivatives.</li>
+                        <li><a href="https://www.mapbox.com/">Mapbox</a> (with geolocation services
+                            enabled) for the above map. </li>
+                        <li>
+                            A Python script was developed to automate this process and is found in this <a href="https://github.com/tastyfreeze/maca/blob/master/build-lidar-analysis.ipynb">Jupyter Notebook</a>
+                        </li>
+                    </ul>
+
+            <h3>Photographs</h3>
+
+            <img src="https://live.staticflickr.com/65535/49183797783_7e57979428_h.jpg" width="100%"  
+            alt="Trail around the River Styx">
+            <div class="linkbox">Trail around the River Styx</div>
+
+            <img src="https://live.staticflickr.com/65535/49183797293_ddf8477451_h.jpg" width="100%"  
+            alt="Switchback">
+            <div class="linkbox">Switchback</div>
+
+            <img src="https://live.staticflickr.com/65535/49184293741_fefe89f25c_h.jpg" width="100%"  
+            alt="Weather webcam location">
+            <div class="linkbox">Green River and location of NPS weather webcam (<a href="https://www.nps.gov/subjects/air/webcams.htm?site=maca">Link to webcam</a>)</div>
+
+            
+
+
+            </div>
+            <div class="column">
+                <img class="max-image-width" src="https://live.staticflickr.com/65535/49184295056_3eeb296aae_h.jpg"
+                    title="Historic Entrance">
+                <div class="linkbox">Historic Entrance. Photograph by Boyd Shearer.</div>
+
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/BVVCe_BSsT4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="linkbox">Video fly-through</div>
+                <p>This animated point cloud shows the trail that leads to the entrance and cave opening. The camera flies under the pedestrian bridge that connects the Visitor Center with the gift shop. The points are colored by the 2018 color aerial photography. Ground features covered by tree canopy are colored by the top of the canopy.</p>
+                
+                <img class="max-image-width" src="dsm/maca-cliff-heights-small.jpg"
+                title="Historic Entrance">
+                <div class="linkbox">Estimated cliff heights (<a href="dsm/maca-cliff-heights.jpg">Enlarge</a>)</div>
+
+                <p>This analysis used Focal Statistics in ArcGIS Pro to calculate the elevation range of ground features within 15 feet of each input cell of the digital elevation elevation model (DEM). Only elevation ranges over 30 feet are shown. One can clearly see cave and spring openings.</p>
+
+                <iframe width="100%" height="315" src="https://www.outragegis.com/pointclouds/maca" frameborder="0"  allowfullscreen></iframe>
+                <div class="linkbox">Potree point cloud render (<a href="https://www.outragegis.com/pointclouds/maca">Enlarge</a>)</div>
+                <p>The open source <a href="http://potree.org">Potree</a> point cloud renderer quickly builds an interactive, 3D web map. The utility offers a series of tools to help viewers measure features on the map. </p>
+
+            </div>
+        </div>
+
+
+        <hr>
+        <!-- <h4><a href="https://uky-gis.github.io">UKy GIS and Mapping</a></h4> -->
+        <a href="https://uky-gis.github.io">
+            <img src="https://uky-gis.github.io/graphics/logo-color-400px.png"
+                alt="University of Kentucky Geography"></a>
+    </section>
+</body>
+
+</html>

@@ -42,7 +42,7 @@ The area around the visitor center and offers over seven miles of trails leading
 
 ### Video fly-through
 
-This animated point cloud shows the trail that leads to the entrance and cave opening. The camera flys under the pedestrian bridge that connects the Visitor Center with the gift shop. The points are colored by the 2018 color aerial photography. Ground features covered by tree canopy are colored by the top of the canopy.
+This animated point cloud shows the trail that leads to the entrance and cave opening. The camera flies under the pedestrian bridge that connects the Visitor Center with the gift shop. The points are colored by the 2018 color aerial photography. Ground features covered by tree canopy are colored by the top of the canopy.
 
 ![Fly-through video to the entrance](images/maca-video.jpg)    
 *Fly-through video to the entrance ([Watch video](https://youtu.be/BVVCe_BSsT4))*
